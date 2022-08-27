@@ -6,7 +6,7 @@ class Filme {
 
   setAvaliacao(avaliacao) {
     if (avaliacao < 0 || avaliacao > 5) {
-      throw new Error('avaliacao nao é valida!');
+      throw new Error('avaliacao nao é valida!!');
     }
 
     this.avaliacao = avaliacao;
